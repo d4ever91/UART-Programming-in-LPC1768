@@ -1,0 +1,18 @@
+if you want to aceess the code 
+emailme at daljitsingh101@gmail.com
+
+Code Description:
+
+Separate functions are used for UART initialization, UART interrupt handling, and APIs for UART access.
+
+The function used for the UART initialization is
+
+UARTInit(0, 57600); /* baud rate setting */
+
+Here 0 defines the UART0 and 57600 is the baud rate.
+
+To send a data by UART this function is used.
+
+UARTSend( 0, (uint8_t *)UART0Buffer, UART0Count );
+
+Here 0 tells it is UART0 and the data to be send is the same which is received.
